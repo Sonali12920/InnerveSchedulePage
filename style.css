@@ -369,6 +369,7 @@ section#schedule.s-speaker.schedule {
     font-size: 30px;
     /*border: none;*/
     border: solid;
+    border-radius: 25px 0 25px 0;
   }
   
   .dropdown {

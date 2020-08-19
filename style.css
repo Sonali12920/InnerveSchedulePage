@@ -390,7 +390,7 @@ section#schedule.s-speaker.schedule {
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: black;}
+  .dropdown-content a:hover {background-color:;}
   
   .dropdown:hover .dropdown-content {display: block;}
   
@@ -407,7 +407,7 @@ section#schedule.s-speaker.schedule {
     z-index: 1; /* Sit on top */
     left: 0;
     top: 0;
-    background-color: lightblue; /* Black fallback color */
+    background-color: white; /* Black fallback color */
     background-color: rgba(7, 7, 7, 0.9); /* Black w/opacity */
     overflow-x: hidden; /* Disable horizontal scroll */
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
@@ -434,7 +434,7 @@ section#schedule.s-speaker.schedule {
   
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: black;
+    color:lightgray;
   }
   
   /* Position the close button (top right corner) */
